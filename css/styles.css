@@ -1,32 +1,28 @@
 body {
     background-color: #F09C3A !important;
 }
-   /* Yadi Section */
-    .restaurant-section {
-        padding: 10vmin 10vmin 0vmin 0vmin;
-    }
-    .restaurant-section-2{
-        padding: 10vmin 10vmin ;
-        padding-bottom: 10vmin;
-    }
-    .restaurant-pic img{
-        height: 500px;
-        width: 540px;
-        box-shadow: 10px 40px 45px 22px rgba(0, 0, 0, 0.3);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .label {
-        width: 530px;
-        background: #f1e5be;
-        border-radius: 40px;
-        text-align: center;
-        box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.3);
-    }
-
-/* Chris's CSS */
+.restaurant-section {
+    padding: 10vmin 10vmin 0vmin 0vmin;
+}
+.restaurant-section-2{
+    padding: 10vmin 10vmin ;
+    padding-bottom: 10vmin;
+}
+.restaurant-pic img{
+    height: 500px;
+    width: 540px;
+    box-shadow: 10px 40px 45px 22px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.label {
+    width: 530px;
+    background: #f1e5be;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px 40px 45px 10px rgba(0, 0, 0, 0.3);
+}
 .box1 {
     background-color: #C4C4C4;
     border: 40px solid #F5F1E4;
@@ -36,16 +32,12 @@ body {
     color: #F5F1E4;
     font-size: 58px;
 }
-
 html{
     box-sizing: border-box;
 }
-
 body{
     background-color: #F09C3A;
 }
-
-/* Misael's CSS */
 .food-option{
      background-color: #fffffd;   
     
@@ -58,47 +50,36 @@ text-decoration: none;
     color: #F09C3A;
 }
 .parallax {
-    /* Set a specific height */
     min-height: 800px;
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
-
+}
 .imgHero {
-    /* The image used */
     background-image: url("../media/pexels-koolshooters-6977378.jpg");
 }
 .container-fluid-hero{
     margin-top: -80px;
 }
-
 #heroText {
     margin-top:10vh;
     margin-left: 15vw;
 }
-
 .box {
     background-color: #F09C3A;
     width: 25px;
 }
-
 .img-thumbnail {
     border: none !important;
 }
-
 .imgSize {
     max-width: 50px !important;
 }
-
 .rowHeight {
     height: min-content;
 }
-
-/* Tsion CSS */
 h2{
     color: white; 
     font-size: 40px;  
@@ -109,7 +90,6 @@ h2{
     z-index: 0;
     width: 100%; 
 }
-
 .variety .card{
     border: 0;
     padding: 0 30px;
@@ -132,11 +112,8 @@ h2{
 .card-img:hover{
     transition: transform 500ms ease-in-out 25ms;
 }
-
 .variety .card-img img{
-    /* width: 100%; */
     transition: all 0.3s ease-in-out;
-    /* object-fit: contain; */
 }
 .card-img{
     box-shadow: 0px 2px 15px rgba(11, 11, 4, 0.5);
@@ -150,6 +127,10 @@ h2{
     margin-top: -60px;
     transition: 0.3s;
     height: 20%; 
+ }
+ .card-body{
+    justify-content: center;
+    text-align: center;
  }
 .variety .card-title {
     font-weight: bold;
@@ -167,9 +148,8 @@ h2{
    font-weight: bold; 
 }
 .add-to-cart{
- font-weight: bold;   
+    font-weight: bold;   
 }
-
 .variety .card:hover img{
     transform: scale(1.1);
 }
@@ -179,8 +159,6 @@ h2{
 .variety .card:hover  .card-body .card-title a{ 
     color: #F09C3A
 }
-
-/* Moon */
 .payment-popup {
     display: none;
     position: absolute;
@@ -188,7 +166,6 @@ h2{
     width: 100%;
     height: 100%;
 }
-
 .confirmationPopUp {
     display: none;
     position: fixed;
@@ -198,7 +175,6 @@ h2{
     align-items: center;
     transform: translate(0%, 150%);
 }
-
 .popUpContainer {
     width: 900px;
     height: 250px;
@@ -206,7 +182,6 @@ h2{
     background-color: #FFF;
     border: 3px solid black;
 }
-
 #paymentSubmit {
     display: none;
 }

@@ -328,7 +328,7 @@ function menuTotal(menuList, action){
         let taxes = ((subTotalCost + menuList.price)*tax).toFixed(2);
         taxes = Number(taxes);
         localStorage.setItem("taxCost", taxes);
-
+ 1``
         let total = (subTotalCost + menuList.price) + taxes;
         localStorage.setItem("totalCost", total.toFixed(2));
     }
